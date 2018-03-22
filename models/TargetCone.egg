@@ -1,0 +1,279 @@
+<Group> TargetCone3.obj {
+  <Group> default {
+    <VertexPool> default {
+      <Vertex> 0 {
+        0 0 -5
+      }
+      <Vertex> 1 {
+        -6.86951e-018 0.0928125 -5
+      }
+      <Vertex> 2 {
+        0.0928125 6.86951e-018 -5
+      }
+      <Vertex> 3 {
+        6.86951e-018 -0.0928125 -5
+      }
+      <Vertex> 4 {
+        -0.0928125 -6.86951e-018 -5
+      }
+      <Vertex> 5 {
+        -9.15934e-018 0.12375 -5
+      }
+      <Vertex> 6 {
+        0.0875045 0.0875045 -5
+      }
+      <Vertex> 7 {
+        0.0656283 0.0656283 -5
+      }
+      <Vertex> 8 {
+        0.12375 9.15934e-018 -5
+      }
+      <Vertex> 9 {
+        0.0875045 -0.0875045 -5
+      }
+      <Vertex> 10 {
+        0.0656283 -0.0656283 -5
+      }
+      <Vertex> 11 {
+        9.15934e-018 -0.12375 -5
+      }
+      <Vertex> 12 {
+        -0.0875045 -0.0875045 -5
+      }
+      <Vertex> 13 {
+        -0.0656283 -0.0656283 -5
+      }
+      <Vertex> 14 {
+        -0.12375 -9.15934e-018 -5
+      }
+      <Vertex> 15 {
+        -0.0875045 0.0875045 -5
+      }
+      <Vertex> 16 {
+        -0.0656283 0.0656283 -5
+      }
+      <Vertex> 17 {
+        0 0 -15
+      }
+      <Vertex> 18 {
+        -2.08167e-017 0.28125 -15
+      }
+      <Vertex> 19 {
+        0.28125 2.08167e-017 -15
+      }
+      <Vertex> 20 {
+        2.08167e-017 -0.28125 -15
+      }
+      <Vertex> 21 {
+        -0.28125 -2.08167e-017 -15
+      }
+      <Vertex> 22 {
+        -2.77556e-017 0.375 -15
+      }
+      <Vertex> 23 {
+        0.265165 0.265165 -15
+      }
+      <Vertex> 24 {
+        0.198874 0.198874 -15
+      }
+      <Vertex> 25 {
+        0.375 2.77556e-017 -15
+      }
+      <Vertex> 26 {
+        0.265165 -0.265165 -15
+      }
+      <Vertex> 27 {
+        0.198874 -0.198874 -15
+      }
+      <Vertex> 28 {
+        2.77556e-017 -0.375 -15
+      }
+      <Vertex> 29 {
+        -0.265165 -0.265165 -15
+      }
+      <Vertex> 30 {
+        -0.198874 -0.198874 -15
+      }
+      <Vertex> 31 {
+        -0.375 -2.77556e-017 -15
+      }
+      <Vertex> 32 {
+        -0.265165 0.265165 -15
+      }
+      <Vertex> 33 {
+        -0.198874 0.198874 -15
+      }
+      <Vertex> 34 {
+        0 0 -0
+      }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 0 1 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 0 2 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 0 3 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 0 4 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 5 1 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 6 7 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 8 2 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 9 10 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 11 3 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 12 13 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 14 4 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 15 16 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 1 16 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 7 1 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 2 7 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 10 2 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 3 10 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 13 3 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 4 13 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 16 4 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 17 18 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 17 19 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 17 20 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 17 21 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 22 18 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 23 24 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 25 19 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 26 27 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 28 20 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 29 30 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 31 21 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 32 33 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 18 33 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 24 18 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 19 24 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 27 19 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 20 27 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 30 20 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 21 30 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 33 21 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 0 34 <Ref> { default } }
+    }
+    <Line> {
+      <RGBA> { 0.784314 0.784314 0.784314 1 }
+      <VertexRef> { 17 0 <Ref> { default } }
+    }
+  }
+}

@@ -1,0 +1,295 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "egg-trans -tbnall -o 'C:\Users\astar\OneDrive\Documents\3programmers2artists\models\untitled.egg' 'C:\Users\astar\OneDrive\Documents\3programmers2artists\models\untitled.egg'"
+}
+<Material> Material {
+  <Scalar> diffr { 0.64 }
+  <Scalar> diffg { 0.64 }
+  <Scalar> diffb { 0.64 }
+  <Scalar> ambr { 1 }
+  <Scalar> ambg { 1 }
+  <Scalar> ambb { 1 }
+  <Scalar> emitr { 0 }
+  <Scalar> emitg { 0 }
+  <Scalar> emitb { 0 }
+  <Scalar> specr { 0.5 }
+  <Scalar> specg { 0.5 }
+  <Scalar> specb { 0.5 }
+  <Scalar> shininess { 12.5 }
+}
+<Group> Armature {
+  <Dart> { 1 }
+  <Group> Cube {
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.426895 0.00731865 1.07823 1
+      }
+    }
+    <VertexPool> Cube {
+      <Vertex> 0 {
+        -1.03724 -0.801517 -0.015696
+        <UV> ORCO {
+          0 0
+          <Tangent> { 0 0 0 }
+          <Binormal> { 0 0 0 }
+        }
+        // Bone:1
+      }
+      <Vertex> 1 {
+        -1.03724 -0.801517 -0.015696
+        <UV> ORCO {
+          0 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 0 1 }
+        }
+        // Bone:1
+      }
+      <Vertex> 2 {
+        -1.03724 -0.801517 1.9843
+        <UV> ORCO {
+          0 0
+          <Tangent> { 0 0 0 }
+          <Binormal> { 0 0 0 }
+        }
+        // Bone:1
+      }
+      <Vertex> 3 {
+        -1.03724 -0.801517 1.9843
+        <UV> ORCO {
+          0 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 0 1 }
+        }
+        // Bone:1
+      }
+      <Vertex> 4 {
+        -1.03724 -0.801517 1.9843
+        <UV> ORCO {
+          0 0
+          <Tangent> { 1 -5e-007 0 }
+          <Binormal> { 5e-007 1 0 }
+        }
+        // Bone:1
+      }
+      <Vertex> 5 {
+        -1.03724 1.19848 1.9843
+        <UV> ORCO {
+          0 1
+          <Tangent> { 0 0 0 }
+          <Binormal> { 0 0 0 }
+        }
+        // Bone:1
+      }
+      <Vertex> 6 {
+        -1.03724 1.19848 1.9843
+        <UV> ORCO {
+          0 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        // Bone:1
+      }
+      <Vertex> 7 {
+        -1.03724 1.19848 1.9843
+        <UV> ORCO {
+          0 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 0 -1 }
+        }
+        // Bone:1
+      }
+      <Vertex> 8 {
+        -1.03724 1.19848 -0.015696
+        <UV> ORCO {
+          0 1
+          <Tangent> { 0 0 0 }
+          <Binormal> { 0 0 0 }
+        }
+        // Bone:1
+      }
+      <Vertex> 9 {
+        -1.03724 1.19848 -0.015696
+        <UV> ORCO {
+          0 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 0 -1 }
+        }
+        // Bone:1
+      }
+      <Vertex> 10 {
+        0.962756 -0.801518 -0.015696
+        <UV> ORCO {
+          1 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 0 1 }
+        }
+        // Bone:1
+      }
+      <Vertex> 11 {
+        0.962756 -0.801518 -0.015696
+        <UV> ORCO {
+          1 0
+          <Tangent> { 0 0 -1 }
+          <Binormal> { 0 1 0 }
+        }
+        // Bone:1
+      }
+      <Vertex> 12 {
+        0.962756 -0.801518 1.9843
+        <UV> ORCO {
+          0.999999 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 0 1 }
+        }
+        // Bone:1
+      }
+      <Vertex> 13 {
+        0.962756 -0.801518 1.9843
+        <UV> ORCO {
+          0.999999 0
+          <Tangent> { 1 -5e-007 0 }
+          <Binormal> { 5e-007 1 0 }
+        }
+        // Bone:1
+      }
+      <Vertex> 14 {
+        0.962756 -0.801518 1.9843
+        <UV> ORCO {
+          0.999999 0
+          <Tangent> { 0 0 -1 }
+          <Binormal> { 0 1 0 }
+        }
+        // Bone:1
+      }
+      <Vertex> 15 {
+        0.962756 1.19848 -0.015696
+        <UV> ORCO {
+          1 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 0 -1 }
+        }
+        // Bone:1
+      }
+      <Vertex> 16 {
+        0.962756 1.19848 -0.015696
+        <UV> ORCO {
+          1 1
+          <Tangent> { 0 0 0 }
+          <Binormal> { 0 0 0 }
+        }
+        // Bone:1
+      }
+      <Vertex> 17 {
+        0.962757 1.19848 1.9843
+        <UV> ORCO {
+          1 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        // Bone:1
+      }
+      <Vertex> 18 {
+        0.962757 1.19848 1.9843
+        <UV> ORCO {
+          1 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 0 -1 }
+        }
+        // Bone:1
+      }
+      <Vertex> 19 {
+        0.962757 1.19848 1.9843
+        <UV> ORCO {
+          1 1
+          <Tangent> { 0 0 0 }
+          <Binormal> { 0 0 0 }
+        }
+        // Bone:1
+      }
+      <Vertex> 20 {
+        -1.03724 -0.801517 -0.015696
+        <UV> ORCO {
+          0 0
+          <Tangent> { 1 -5e-007 0 }
+          <Binormal> { 5e-007 1 0 }
+        }
+        // Bone:1
+      }
+      <Vertex> 21 {
+        -1.03724 1.19848 -0.015696
+        <UV> ORCO {
+          0 1
+          <Tangent> { 1 -5e-007 0 }
+          <Binormal> { 5e-007 1 0 }
+        }
+        // Bone:1
+      }
+      <Vertex> 22 {
+        0.962756 -0.801518 -0.015696
+        <UV> ORCO {
+          1 0
+          <Tangent> { 1 -5e-007 0 }
+          <Binormal> { 5e-007 1 0 }
+        }
+        // Bone:1
+      }
+      <Vertex> 23 {
+        0.962756 1.19848 -0.015696
+        <UV> ORCO {
+          1 1
+          <Tangent> { 1 -5e-007 0 }
+          <Binormal> { 5e-007 1 0 }
+        }
+        // Bone:1
+      }
+    }
+    <Polygon> {
+      <Normal> { 0 0 -1 }
+      <MRef> { Material }
+      <VertexRef> { 23 22 20 21 <Ref> { Cube } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <MRef> { Material }
+      <VertexRef> { 17 6 4 13 <Ref> { Cube } }
+    }
+    <Polygon> {
+      <Normal> { 1 0 0 }
+      <MRef> { Material }
+      <VertexRef> { 16 19 14 11 <Ref> { Cube } }
+    }
+    <Polygon> {
+      <Normal> { 0 -1 0 }
+      <MRef> { Material }
+      <VertexRef> { 10 12 3 1 <Ref> { Cube } }
+    }
+    <Polygon> {
+      <Normal> { -1 0 0 }
+      <MRef> { Material }
+      <VertexRef> { 0 2 5 8 <Ref> { Cube } }
+    }
+    <Polygon> {
+      <Normal> { 0 1 0 }
+      <MRef> { Material }
+      <VertexRef> { 18 15 9 7 <Ref> { Cube } }
+    }
+  }
+  <Joint> Bone {
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 0 1 0
+        0 -1 0 0
+        -0.464139 0.191164 -0.503406 1
+      }
+    }
+    <VertexRef> {
+      0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+      <Ref> { Cube }
+    }
+  }
+}

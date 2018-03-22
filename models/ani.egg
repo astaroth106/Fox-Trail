@@ -1,0 +1,254 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "egg-trans -tbnall -o 'C:\Users\astar\OneDrive\Documents\3programmers2artists\models\untitled.egg' 'C:\Users\astar\OneDrive\Documents\3programmers2artists\models\untitled.egg'"
+}
+<Material> Material {
+  <Scalar> diffr { 0.64 }
+  <Scalar> diffg { 0.64 }
+  <Scalar> diffb { 0.64 }
+  <Scalar> ambr { 1 }
+  <Scalar> ambg { 1 }
+  <Scalar> ambb { 1 }
+  <Scalar> emitr { 0 }
+  <Scalar> emitg { 0 }
+  <Scalar> emitb { 0 }
+  <Scalar> specr { 0.5 }
+  <Scalar> specg { 0.5 }
+  <Scalar> specb { 0.5 }
+  <Scalar> shininess { 12.5 }
+}
+<Group> Cube {
+  <Transform> {
+    <Matrix4> {
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      2.26442 0 1.50756 1
+    }
+  }
+  <VertexPool> Cube {
+    <Vertex> 0 {
+      1.26442 -1 0.507562
+      <UV> ORCO {
+        0 0
+        <Tangent> { 0 0 0 }
+        <Binormal> { 0 0 0 }
+      }
+    }
+    <Vertex> 1 {
+      1.26442 -1 0.507562
+      <UV> ORCO {
+        0 0
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 0 1 }
+      }
+    }
+    <Vertex> 2 {
+      1.26442 -1 2.50756
+      <UV> ORCO {
+        0 0
+        <Tangent> { 0 0 0 }
+        <Binormal> { 0 0 0 }
+      }
+    }
+    <Vertex> 3 {
+      1.26442 -1 2.50756
+      <UV> ORCO {
+        0 0
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 0 1 }
+      }
+    }
+    <Vertex> 4 {
+      1.26442 -1 2.50756
+      <UV> ORCO {
+        0 0
+        <Tangent> { 1 -5e-007 0 }
+        <Binormal> { 5e-007 1 0 }
+      }
+    }
+    <Vertex> 5 {
+      1.26442 1 0.507562
+      <UV> ORCO {
+        0 1
+        <Tangent> { 0 0 0 }
+        <Binormal> { 0 0 0 }
+      }
+    }
+    <Vertex> 6 {
+      1.26442 1 0.507562
+      <UV> ORCO {
+        0 1
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 0 -1 }
+      }
+    }
+    <Vertex> 7 {
+      1.26442 1 2.50756
+      <UV> ORCO {
+        0 1
+        <Tangent> { 0 0 0 }
+        <Binormal> { 0 0 0 }
+      }
+    }
+    <Vertex> 8 {
+      1.26442 1 2.50756
+      <UV> ORCO {
+        0 1
+        <Tangent> { 1 -5e-007 0 }
+        <Binormal> { 5e-007 1 0 }
+      }
+    }
+    <Vertex> 9 {
+      1.26442 1 2.50756
+      <UV> ORCO {
+        0 1
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 0 -1 }
+      }
+    }
+    <Vertex> 10 {
+      3.26442 -1 2.50756
+      <UV> ORCO {
+        0.999999 0
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 0 1 }
+      }
+    }
+    <Vertex> 11 {
+      3.26442 -1 2.50756
+      <UV> ORCO {
+        0.999999 0
+        <Tangent> { 1 -5e-007 0 }
+        <Binormal> { 5e-007 1 0 }
+      }
+    }
+    <Vertex> 12 {
+      3.26442 -1 2.50756
+      <UV> ORCO {
+        0.999999 0
+        <Tangent> { 0 5e-007 -1 }
+        <Binormal> { 0 1 5e-007 }
+      }
+    }
+    <Vertex> 13 {
+      3.26442 -1 0.507562
+      <UV> ORCO {
+        1 0
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 0 1 }
+      }
+    }
+    <Vertex> 14 {
+      3.26442 -1 0.507562
+      <UV> ORCO {
+        1 0
+        <Tangent> { 0 5e-007 -1 }
+        <Binormal> { 0 1 5e-007 }
+      }
+    }
+    <Vertex> 15 {
+      3.26442 0.999999 2.50756
+      <UV> ORCO {
+        1 1
+        <Tangent> { 1 -5e-007 0 }
+        <Binormal> { 5e-007 1 0 }
+      }
+    }
+    <Vertex> 16 {
+      3.26442 0.999999 2.50756
+      <UV> ORCO {
+        1 1
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 0 -1 }
+      }
+    }
+    <Vertex> 17 {
+      3.26442 0.999999 2.50756
+      <UV> ORCO {
+        1 1
+        <Tangent> { 0 0 0 }
+        <Binormal> { 0 0 0 }
+      }
+    }
+    <Vertex> 18 {
+      3.26442 1 0.507562
+      <UV> ORCO {
+        1 1
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 0 -1 }
+      }
+    }
+    <Vertex> 19 {
+      3.26442 1 0.507562
+      <UV> ORCO {
+        1 1
+        <Tangent> { 0 0 0 }
+        <Binormal> { 0 0 0 }
+      }
+    }
+    <Vertex> 20 {
+      1.26442 -1 0.507562
+      <UV> ORCO {
+        0 0
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+    }
+    <Vertex> 21 {
+      1.26442 1 0.507562
+      <UV> ORCO {
+        0 1
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+    }
+    <Vertex> 22 {
+      3.26442 -1 0.507562
+      <UV> ORCO {
+        1 0
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+    }
+    <Vertex> 23 {
+      3.26442 1 0.507562
+      <UV> ORCO {
+        1 1
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+    }
+  }
+  <Polygon> {
+    <Normal> { 0 0 -1 }
+    <MRef> { Material }
+    <VertexRef> { 23 22 20 21 <Ref> { Cube } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <MRef> { Material }
+    <VertexRef> { 15 8 4 11 <Ref> { Cube } }
+  }
+  <Polygon> {
+    <Normal> { 1 0 0 }
+    <MRef> { Material }
+    <VertexRef> { 19 17 12 14 <Ref> { Cube } }
+  }
+  <Polygon> {
+    <Normal> { 0 -1 0 }
+    <MRef> { Material }
+    <VertexRef> { 13 10 3 1 <Ref> { Cube } }
+  }
+  <Polygon> {
+    <Normal> { -1 0 0 }
+    <MRef> { Material }
+    <VertexRef> { 0 2 7 5 <Ref> { Cube } }
+  }
+  <Polygon> {
+    <Normal> { 0 1 0 }
+    <MRef> { Material }
+    <VertexRef> { 16 18 6 9 <Ref> { Cube } }
+  }
+}

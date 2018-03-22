@@ -1,0 +1,45 @@
+<CoordinateSystem> { Z-up } 
+<Material> Material.003 {
+  <Scalar> diffr { 0.134382 }
+  <Scalar> diffg { 0.640000 }
+  <Scalar> diffb { 0.134045 }
+  <Scalar> specr { 0.001564 }
+  <Scalar> specg { 0.500000 }
+  <Scalar> specb { 0.000000 }
+  <Scalar> shininess { 12.5 }
+  <Scalar> ambr { 1.000000 }
+  <Scalar> ambg { 1.000000 }
+  <Scalar> ambb { 1.000000 }
+  <Scalar> emitr { 0.000000 }
+  <Scalar> emitg { 0.000000 }
+  <Scalar> emitb { 0.000000 }
+}
+
+  <Group> Plane {
+    <Transform> {
+      <Matrix4> {
+        8.093138694763184 0.0 0.0 0.0 
+        0.0 8.093138694763184 0.0 0.0 
+        0.0 0.0 8.093138694763184 0.0 
+        0.0 0.08296676725149155 0.0 1.0 
+      }
+    }
+    
+    <VertexPool> Plane {
+    
+      <Vertex> 0 {-8.093139 -8.010172 0.000000
+      }
+      <Vertex> 1 {8.093139 -8.010172 0.000000
+      }
+      <Vertex> 2 {8.093139 8.176105 0.000000
+      }
+      <Vertex> 3 {-8.093139 8.176105 0.000000
+      }}
+    
+    
+    <Polygon> {
+      <MRef> { Material.003 }
+      <Normal> {0.000000 0.000000 1.000000}
+      <VertexRef> { 0 1 2 3 <Ref> { Plane }} 
+    }
+  }

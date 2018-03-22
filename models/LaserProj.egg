@@ -1,0 +1,311 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg2009 -keep-uvs -o LaserProj.egg 'C:\EggLayer\LaserProj.mb'"
+}
+<Group> groundPlane_transform {
+}
+<Group> "LaserProj:default1" {
+  <VertexPool> "LaserProj:defaultShape.verts" {
+    <Vertex> 0 {
+      0.0707107 0.0707107 -0.5
+      <UV> { 0.625 0.845 }
+      <Normal> { 0.479842 0.479842 -0.734509 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 1 {
+      0 0.1 -0.5
+      <UV> { 0.75 0.845 }
+      <Normal> { 0 0.678598 -0.73451 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 2 {
+      0 0.1 0
+      <UV> { 0.75 0.155 }
+      <Normal> { 0 0.678598 0.73451 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 3 {
+      0.0707107 0.0707107 0
+      <UV> { 0.625 0.155 }
+      <Normal> { 0.479842 0.479842 0.734509 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 4 {
+      0.1 0 -0.5
+      <UV> { 0.5 0.845 }
+      <Normal> { 0.678598 0 -0.73451 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 5 {
+      0.1 0 0
+      <UV> { 0.5 0.155 }
+      <Normal> { 0.678598 0 0.73451 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 6 {
+      0.0707107 -0.0707107 -0.5
+      <UV> { 0.375 0.845 }
+      <Normal> { 0.479842 -0.479842 -0.734509 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 7 {
+      0.0707107 -0.0707107 0
+      <UV> { 0.375 0.155 }
+      <Normal> { 0.479842 -0.479842 0.734509 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 8 {
+      0 -0.1 -0.5
+      <UV> { 0.25 0.845 }
+      <Normal> { 0 -0.678598 -0.73451 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 9 {
+      0 -0.1 0
+      <UV> { 0.25 0.155 }
+      <Normal> { 0 -0.678598 0.73451 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 10 {
+      -0.0707107 -0.0707107 0
+      <UV> { 0.125 0.155 }
+      <Normal> { -0.479842 -0.479842 0.734509 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 11 {
+      -0.0707107 -0.0707107 -0.5
+      <UV> { 0.125 0.845 }
+      <Normal> { -0.479842 -0.479842 -0.734509 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 12 {
+      -0.1 0 0
+      <UV> { 0 0.155 }
+      <Normal> { -0.678598 0 0.73451 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 13 {
+      -0.1 0 -0.5
+      <UV> { 0 0.845 }
+      <Normal> { -0.678598 0 -0.73451 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 14 {
+      -0.0707107 0.0707107 0
+      <UV> { 0.875 0.155 }
+      <Normal> { -0.479842 0.479842 0.734509 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 15 {
+      -0.0707107 0.0707107 -0.5
+      <UV> { 0.875 0.845 }
+      <Normal> { -0.479842 0.479842 -0.734509 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 16 {
+      -0.1 0 -0.5
+      <UV> { 1 0.845 }
+      <Normal> { -0.678598 0 -0.73451 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 17 {
+      -0.1 0 0
+      <UV> { 1 0.155 }
+      <Normal> { -0.678598 0 0.73451 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 18 {
+      0 0 0
+      <UV> { 0.6875 0 }
+      <Normal> { 0 0 1 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 19 {
+      0 0 0
+      <UV> { 0.5625 0 }
+      <Normal> { 0 0 1 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 20 {
+      0 0 0
+      <UV> { 0.4375 0 }
+      <Normal> { 0 0 1 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 21 {
+      0 0 0
+      <UV> { 0.3125 0 }
+      <Normal> { 0 0 1 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 22 {
+      0 0 0
+      <UV> { 0.1875 0 }
+      <Normal> { 0 0 1 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 23 {
+      0 0 0
+      <UV> { 0.0625 0 }
+      <Normal> { 0 0 1 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 24 {
+      0 0 0
+      <UV> { 0.9375 0 }
+      <Normal> { 0 0 1 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 25 {
+      0 0 0
+      <UV> { 0.8125 0 }
+      <Normal> { 0 0 1 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 26 {
+      0 0 -0.5
+      <UV> { 0.6875 1 }
+      <Normal> { 0 0 -1 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 27 {
+      0 0 -0.5
+      <UV> { 0.5625 1 }
+      <Normal> { 0 0 -1 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 28 {
+      0 0 -0.5
+      <UV> { 0.4375 1 }
+      <Normal> { 0 0 -1 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 29 {
+      0 0 -0.5
+      <UV> { 0.3125 1 }
+      <Normal> { 0 0 -1 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 30 {
+      0 0 -0.5
+      <UV> { 0.1875 1 }
+      <Normal> { 0 0 -1 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 31 {
+      0 0 -0.5
+      <UV> { 0.0625 1 }
+      <Normal> { 0 0 -1 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 32 {
+      0 0 -0.5
+      <UV> { 0.9375 1 }
+      <Normal> { 0 0 -1 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 33 {
+      0 0 -0.5
+      <UV> { 0.8125 1 }
+      <Normal> { 0 0 -1 }
+      <RGBA> { 1 1 1 1 }
+    }
+  }
+  <Polygon> {
+    <Normal> { 0.382683 0.92388 0 }
+    <VertexRef> { 0 1 2 3 <Ref> { "LaserProj:defaultShape.verts" } }
+  }
+  <Polygon> {
+    <Normal> { 0.92388 0.382683 0 }
+    <VertexRef> { 4 0 3 5 <Ref> { "LaserProj:defaultShape.verts" } }
+  }
+  <Polygon> {
+    <Normal> { 0.92388 -0.382683 0 }
+    <VertexRef> { 6 4 5 7 <Ref> { "LaserProj:defaultShape.verts" } }
+  }
+  <Polygon> {
+    <Normal> { 0.382683 -0.92388 0 }
+    <VertexRef> { 8 6 7 9 <Ref> { "LaserProj:defaultShape.verts" } }
+  }
+  <Polygon> {
+    <Normal> { -0.382683 -0.92388 0 }
+    <VertexRef> { 10 11 8 9 <Ref> { "LaserProj:defaultShape.verts" } }
+  }
+  <Polygon> {
+    <Normal> { -0.92388 -0.382683 0 }
+    <VertexRef> { 12 13 11 10 <Ref> { "LaserProj:defaultShape.verts" } }
+  }
+  <Polygon> {
+    <Normal> { -0.92388 0.382683 0 }
+    <VertexRef> { 14 15 16 17 <Ref> { "LaserProj:defaultShape.verts" } }
+  }
+  <Polygon> {
+    <Normal> { -0.382683 0.92388 0 }
+    <VertexRef> { 2 1 15 14 <Ref> { "LaserProj:defaultShape.verts" } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <VertexRef> { 18 3 2 <Ref> { "LaserProj:defaultShape.verts" } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <VertexRef> { 19 5 3 <Ref> { "LaserProj:defaultShape.verts" } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <VertexRef> { 20 7 5 <Ref> { "LaserProj:defaultShape.verts" } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <VertexRef> { 21 9 7 <Ref> { "LaserProj:defaultShape.verts" } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <VertexRef> { 22 10 9 <Ref> { "LaserProj:defaultShape.verts" } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <VertexRef> { 23 12 10 <Ref> { "LaserProj:defaultShape.verts" } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <VertexRef> { 24 14 17 <Ref> { "LaserProj:defaultShape.verts" } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <VertexRef> { 25 2 14 <Ref> { "LaserProj:defaultShape.verts" } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 -1 }
+    <VertexRef> { 26 1 0 <Ref> { "LaserProj:defaultShape.verts" } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 -1 }
+    <VertexRef> { 27 0 4 <Ref> { "LaserProj:defaultShape.verts" } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 -1 }
+    <VertexRef> { 28 4 6 <Ref> { "LaserProj:defaultShape.verts" } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 -1 }
+    <VertexRef> { 29 6 8 <Ref> { "LaserProj:defaultShape.verts" } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 -1 }
+    <VertexRef> { 30 8 11 <Ref> { "LaserProj:defaultShape.verts" } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 -1 }
+    <VertexRef> { 31 11 13 <Ref> { "LaserProj:defaultShape.verts" } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 -1 }
+    <VertexRef> { 32 16 15 <Ref> { "LaserProj:defaultShape.verts" } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 -1 }
+    <VertexRef> { 33 15 1 <Ref> { "LaserProj:defaultShape.verts" } }
+  }
+}

@@ -12,7 +12,7 @@ import random, sys, os, math
 from panda3d.core import loadPrcFileData
 from AppState import *
 
-loadPrcFileData('', 'fullscreen true')
+loadPrcFileData('', 'fullscreen false')
 
 font = TextNode.getDefaultFont()
 focus=NodePath("tilerFocuse")

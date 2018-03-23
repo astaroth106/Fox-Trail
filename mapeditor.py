@@ -58,9 +58,9 @@ def addTitle(text):
 class World(DirectObject):
 
     def __init__(self):
-        
+
         self.keyMap = {"left":0, "right":0, "up":0, "down":0}
-        
+
         self.title = addTitle("Testing Map Editor - Grid System")
         self.inst1 = addInstructions(0.95, "[ESC]: Quit")
         self.inst2 = addInstructions(0.90, "[Enter]: Start Pathfinding")
@@ -68,15 +68,15 @@ class World(DirectObject):
         # self.inst3 = addInstructions(0.80, "[1]: Small box")
         # self.inst4 = addInstructions(0.75, "[2]: Big box")
         # self.inst5 = addInstructions(0.70, "[Space]: Place box")
-        
+
         #base.disableMouse()
         base.cam.setPosHpr(0,-200,350,0,300,0)
         self.box = 0
         self.pointer_move = False
-        
+
         self.loadModels()
         self.setAI()
-       
+
     def loadModels(self):
 
         # self.environ1 = loader.loadModel("models/skydome")
@@ -113,7 +113,7 @@ class World(DirectObject):
 
         #self.size = 10
         # self.Matrix = [[0 for x in range(self.size+1)] for y in range(self.size+1)]
-        
+
         # **BUILD WALL**
         for i in range(0, self.size+1):
             j = 0
@@ -158,7 +158,7 @@ class World(DirectObject):
                     n = n + 1
                 n = 1
                 m = m + 1
-            print l
+            print(l)
 
         #print self.Matrix
         # obstacles -- need to add collision...
@@ -194,7 +194,7 @@ class World(DirectObject):
                 #     self.Matrix[i][j].setPos(-70 + i * 14.5, -80 + j * 14.5, 0)
         # for i in range(1, self.size):
         #     for j in range(1, self.size):
-                
+
         #         self.Matrix[i][j] = loader.loadModel("models/groundPlane")
         #         tex = loader.loadTexture("Texture/grass_t.png")
         #         self.Matrix[i][j].setTexture(tex)
@@ -228,7 +228,7 @@ class World(DirectObject):
         self.ralph.reparentTo(render)
         self.ralph.setScale(2)
         self.ralph.setPos(ralphStartPos)
-        
+
         self.pointer = loader.loadModel("models/arrow")
         self.pointer.setColor(1,0,0)
         self.pointer.setPos(60,-60,0)
@@ -238,12 +238,12 @@ class World(DirectObject):
     def setAI(self):
         #Creating AI World
         self.AIworld = AIWorld(render)
-        
+
         self.accept("enter", self.setMove)
         #self.accept("1", self.addBlock)
         #self.accept("2", self.addBigBlock)
         #self.accept("space", self.addStaticObstacle)
-        
+
         #movement
         self.accept("arrow_left", self.setKey, ["left",1])
         self.accept("arrow_right", self.setKey, ["right",1])
@@ -253,36 +253,36 @@ class World(DirectObject):
         self.accept("arrow_right-up", self.setKey, ["right",0])
         self.accept("arrow_up-up", self.setKey, ["up",0])
         self.accept("arrow_down-up", self.setKey, ["down",0])
-        
+
         self.AIchar = AICharacter("ralph",self.ralph, 60, 0.05, 15)
         self.AIworld.addAiChar(self.AIchar)
         self.AIbehaviors = self.AIchar.getAiBehaviors()
-        
+
         self.AIbehaviors.initPathFind("models/navmesh.csv")
-        
-        #AI World update        
+
+        #AI World update
         taskMgr.add(self.AIUpdate,"AIUpdate")
-        
+
         #movement task
         taskMgr.add(self.Mover,"Mover")
-        
+
         self.dirnlight1 = DirectionalLight("dirn_light1")
         self.dirnlight1.setColor(Vec4(1.0,1.0,1.0,1.0))
         self.dirnlightnode1 = render.attachNewNode(self.dirnlight1)
         self.dirnlightnode1.setHpr(0,317,0)
         render.setLight(self.dirnlightnode1)
-        
+
     def setMove(self):
         self.AIbehaviors.pathFindTo(self.pointer)
         self.ralph.loop("run")
-    
+
     def addBlock(self):
         self.pointer_move = True
         self.box = loader.loadModel("models/box")
         self.box.setPos(0,-60,0)
         self.box.setScale(1)
         self.box.reparentTo(render)
-        
+
     def addBigBlock(self):
         self.pointer_move = True
         self.box = loader.loadModel("models/box")
@@ -290,25 +290,25 @@ class World(DirectObject):
         self.box.setScale(2)
         self.box.setColor(1,1,0)
         self.box.reparentTo(render)
-    
+
     def addStaticObstacle(self):
         if(self.box!=0):
             self.AIbehaviors.addStaticObstacle(self.box)
             self.box = 0
             self.pointer_move = False
-            
-    #to update the AIWorld    
+
+    #to update the AIWorld
     def AIUpdate(self,task):
         self.AIworld.update()
         #if(self.AIbehaviors.behaviorStatus("pathfollow") == "done"):
             #self.ralph.stop("run")
             #self.ralph.pose("walk", 0)
-            
+
         return Task.cont
-    
+
     def setKey(self, key, value):
         self.keyMap[key] = value
-        
+
     def Mover(self,task):
         startPos = self.pointer.getPos()
         if (self.keyMap["left"]!=0):
@@ -319,13 +319,12 @@ class World(DirectObject):
             self.pointer.setPos(startPos + Point3(0,speed,0))
         if (self.keyMap["down"]!=0):
             self.pointer.setPos(startPos + Point3(0,-speed,0))
-            
+
         if(self.pointer_move == True and self.box != 0):
             self.box.setPos(self.pointer.getPos())
-                
+
         return Task.cont
 
 
 w = World()
 base.run()
-

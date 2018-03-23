@@ -2,7 +2,7 @@
 
 Rapid game development prototype, Multiplayer FPS 3D game written on python with Panda3D.
 
-![alt text](Fox-Trail/gameShowcase.PNG "Logo Title Text 1")
+![alt text](gameShowcase.PNG "Logo Title Text 1")
 
 ## Dependencies
 
